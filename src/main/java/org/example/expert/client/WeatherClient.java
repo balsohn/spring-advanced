@@ -43,7 +43,7 @@ public class WeatherClient {
                 return weatherDto.getWeather();
             }
         }
-g
+
         throw new ServerException("오늘에 해당하는 날씨 데이터를 찾을 수 없습니다.");
     }
 
